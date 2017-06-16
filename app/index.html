@@ -1,27 +1,40 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Tutorial Gulp</title>
-  <script src="build/app.js"></script>
-</head>
-<body>
-  <table border="1">
-    <thead>
-      <tr>
-        <td>Nombres</td>
-        <td>Apellidos</td>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Luis</td>
-        <td>Gonzalez</td>
-      </tr>
-      <tr>
-        <td>Andrea</td>
-        <td>Plasencia</td>
-      </tr>
-    </tbody>
-  </table>
-</body>
+  <head>
+    <title>Tutorial Gulp</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="build/js/app.js"></script>
+    <link rel="stylesheet" type="text/css" href="build/css/styles.css">
+  </head>
+  <body>
+    <table border="1">
+      <thead>
+        <tr>
+          <td>Nombre</td>
+          <td>Apellido</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Luis</td>
+          <td>
+            <span onmouseover="showCustIds(1, this)">Gonzalez</span>
+          </td>
+        </tr>
+        <tr>
+          <td>Andrea</td>
+          <td>
+            <span onmouseover="showCustIds(2, this)">Placencia</span>
+          </td>
+        </tr>
+        <tr>
+          <td>Samara</td>
+          <td>
+            <span onmouseover="showCustIds(3, this)">Gonzalez</span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div id="content-cust-ids" onmouseout="hideCustIds(this)"></div>
+  </body>
 </html>

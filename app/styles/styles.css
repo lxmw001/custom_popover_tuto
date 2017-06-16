@@ -1,0 +1,20 @@
+#content-cust-ids {
+  position: absolute;
+  width: 0;
+  height: 0;
+  -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+  transition: width 2s;
+}
+.show {
+  border: solid 1px #000;
+  width: auto !important;
+  height: auto !important;
+}
+
+table td {
+  background-color: #faf;
+}
+
+span  {
+  background-color: inherit;
+}
