@@ -1,7 +1,7 @@
 {
-  "name": "gulp_tuto",
+  "name": "custom_popover_tuto",
   "version": "1.0.0",
-  "description": "Tutorial de Gulp",
+  "description": "Tutorial de la creacion de un custom popover",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
